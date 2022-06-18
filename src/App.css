@@ -4,7 +4,7 @@
 }
 
 .container {
-  background: linear-gradient(to bottom, #0a447e, #218bab);
+  background: linear-gradient(to bottom, #0a447e, white);
   width: 100%;
   min-height: 100vh;
   display: flex;
