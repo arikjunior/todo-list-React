@@ -33,7 +33,7 @@ const Form = ({ input, setInput, todos, setTodos, editTodo, setEditTodo }) => {
         <form onSubmit={onFormSubmit}>
             <input type="text" placeholder='Masukkan list...' className='task-input' value={input} required onChange={onInputChange} />
             <button className='button-add' type='submit'>
-                {editTodo ? "OK" : "Add"}
+                {editTodo ? "OK" : "+"}
             </button>
         </form>
     );

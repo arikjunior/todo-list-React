@@ -39,7 +39,7 @@
   margin-right: 25px;
   font-size: 20px;
   color: black;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   border: 3px solid crimson;
   border-radius: 10px;
 }
@@ -50,8 +50,14 @@
   font-size: 20px;
   border-radius: 10px;
   border: 0;
-  background-color: crimson;
+  background: crimson;
+  border: 2px solid crimson;
   cursor: pointer;
+}
+
+.button-add:hover {
+  color: crimson;
+  background: none;
 }
 
 .list-item {
@@ -89,10 +95,11 @@
 }
 
 .complete {
-  text-decoration-style: solid;
+  font-style: italic;
+  text-decoration-style: wavy;
   text-decoration-line: line-through;
-  text-decoration-color: #ff6c6c;
-  opacity: 0.6;
+  text-decoration-color: white;
+  opacity: 0.2;
 }
 
 .list {
