@@ -35,6 +35,7 @@ const App = () => {
           <TodoList todos={todos} setTodos={setTodos} setEditTodo={setEditTodo} />
         </div>
       </div>
+
     </div>
   );
 }
